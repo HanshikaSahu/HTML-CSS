@@ -1,0 +1,80 @@
+.container{
+    height: 1000px;
+    background-color:#E5E5FD;
+    border: 12px solid black;
+}
+.main{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image{
+    background-image: url(apj.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 120px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading{
+    height: 40px;
+    color: black;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.date{
+    /* font-size: 0.85rem; */
+    display: flex;
+    justify-content: right;
+}
+.heading2{
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.para{
+    font-size: 0.85rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 25px;
+}
+.bio{
+    width: 600px;
+    height: 200px;
+    font-size: 0.85rem;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.bio-head{
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    align-content: center;
+    justify-content: right;
+    color: black;
+}
+.list{
+    margin-left: 30px;
+    font-size: 13px;
+}
+.list li{
+    margin-bottom: 10px;
+}
+.foot p{
+    display: flex;
+    align-content:end;
+    justify-content: end;
+    margin-top: 120px;
+    margin-left: 800px;
+    margin-right: 20px;
+}
+.foot a{
+    text-decoration: none;
+    margin-right: 20px;
+}
