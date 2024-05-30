@@ -1,0 +1,185 @@
+header{
+    height: 50px;
+    background-color: #371f7d;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.myTunes{
+    font-weight: 200;
+    font-size: 20px;
+}
+.myTunes h4{
+    margin-top: 15px;
+}
+.others a{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.hero{
+    height: 150vh;
+    background-image: url(hero_image\ \(1\).png);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+.herotext{
+    color: white;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.herotext h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.herotext h3{
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.body{
+    background-color: #281154;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.ads{
+    font-size: 20px;
+}
+.bodytext{
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 800;
+}
+.button button{
+    background-color: red;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+.bodytex2{
+    font-size: 0.85rem;
+}
+.bodyimg{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+.bodytwo{
+    background-color: #c8bfd9;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.b2{
+    margin-top: 500px;
+    align-items: center;
+}
+.granted{
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.with{
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 20px;
+}
+.buttontwo{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.buttontwo button{
+    background-color:#281154;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.imgmac{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.video{
+    height: 150vh;
+    background-image: url(video.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    display: grid;
+    place-items: center;
+}
+.videotext{
+    color: white;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.gc{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #c8bfd9;
+    padding: 50px;
+}
+.gctext{
+    padding: 20px;
+    text-align: start;
+}
+.buttonthree{
+    padding: 20px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.gctext button{
+    background-color:#281154e1;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: start;
+    background-color:#281154;
+    color: white;
+}
+.options h3{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.options ul{
+    list-style-type: none;
+    padding-left: 1px;
+}
+.options li{
+    padding: 2px;
+}
+footer{
+    background-color: #371f7d;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 50px;
+}

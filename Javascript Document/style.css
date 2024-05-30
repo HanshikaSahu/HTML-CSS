@@ -1,0 +1,53 @@
+body{
+    display: flex;
+}
+header{
+    border: 1px solid black;
+    height: 220vh;
+}
+.nav h1{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav ul{
+    padding: 5px;
+    padding-top: 0;
+}
+.nav ul li{
+    list-style: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+main{
+    margin-left: 40px;
+    margin-right: 60px;
+}
+main ul li{
+    padding-bottom: 10px;
+}
+.what{
+    padding-top: 10px;
+}
+.jj{
+    padding-top: 5px;
+}
+.hello{
+    padding-top: 5px;
+}
+.code{
+    background-color: #EBEBEB;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.variables{
+    padding-top: 5px;
+}

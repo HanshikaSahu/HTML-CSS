@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+.container{
+    background-color: white;
+    max-width: 700px;
+    /* height: 900px; */
+    border-radius: 15px;
+    margin: 10px auto;
+}
+.apply-box{
+    background-color: white;
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.head{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.head h1{
+    background-color: white;
+    margin: 0;
+    font-size: 45px;
+}
+.head span{
+    font-size: 30px;
+    color:darkblue;
+    text-align: center;
+    margin-top: 13px;
+    /* display: flex;
+    align-items: end; */
+    background-color: white;
+    margin-right: 150px;
+}
+.form-container{
+     display: grid;
+     grid-template-columns: repeat(auto-fit , minmax(200px, 1fr));
+     gap: 20px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    font-weight: 1000;
+}
+input,
+select,
+textarea{
+    padding: 6px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.textarea_control{
+    grid-column: 1/span 2;
+    font-weight: 1000;
+}
+.textarea_control textarea{
+    width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    border: transparent solid 1px;
+    color: white;
+}
